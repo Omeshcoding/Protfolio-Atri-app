@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.p-Home.Flex27 {
+  padding: 2rem 0;
+}
+
+.p-Home.TextBox16,
+.p-Home.TextBox21,
+.p-Home.TextBox38,
+.p-Home.TextBox39,
+.p-Home.TextBox47,
+.p-Home.TextBox41,
+.p-Home.TextBox42,
+.p-Home.TextBox43,
+.p-Home.TextBox56,
+.p-Home.TextBox76,
+.p-Home.TextBox100,
+.p-Home.TextBox110,
+.p-Home.TextBox122 {
+  display: inline;
+  padding-right: 5px;
+  background-image: linear-gradient(
+    108deg,
+    #b16cea 8%,
+    #ff5e69 40%,
+    #ff8a56 77%,
+    #ffa84b 91%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.p-Home.Image7 {
+  width: 80%;
+}
+.p-Home.Flex64.bpt::-webkit-scrollbar {
+  display: none;
+}
+.p-Home.Flex153.bpt::-webkit-scrollbar {
+  display: none;
+}
+
+/* import './home.css' */
+
+/* Font-weight */
+.p-Home.Button1,
+.p-Home.TextBox14,
+.p-Home.TextBox17,
+.p-Home.TextBox19,
+.p-Home.TextBox20,
+.p-Home.TextBox22,
+.p-Home.TextBox24,
+.p-Home.TextBox25,
+.p-Home.TextBox26,
+.p-Home.TextBox27,
+.p-Home.TextBox29,
+.p-Home.TextBox30,
+.p-Home.TextBox31,
+.p-Home.TextBox32,
+.p-Home.TextBox34,
+.p-Home.TextBox35,
+.p-Home.TextBox36,
+.p-Home.TextBox37,
+.p-Home.TextBox40,
+.p-Home.TextBox44,
+.p-Home.TextBox45,
+.p-Home.TextBox50,
+.p-Home.TextBox52,
+.p-Home.TextBox54,
+.p-Home.TextBox56,
+.p-Home.TextBox57,
+.p-Home.TextBox60,
+.p-Home.TextBox63,
+.p-Home.TextBox66,
+.p-Home.TextBox68,
+.p-Home.TextBox73,
+.p-Home.TextBox77,
+.p-Home.TextBox79,
+.p-Home.TextBox80,
+.p-Home.TextBox82,
+.p-Home.TextBox83,
+.p-Home.TextBox84,
+.p-Home.TextBox85,
+.p-Home.TextBox86,
+.p-Home.TextBox87,
+.p-Home.TextBox101,
+.p-Home.TextBox102,
+.p-Home.TextBox103,
+.p-Home.TextBox107,
+.p-Home.TextBox109,
+.p-Home.TextBox111,
+.p-Home.TextBox120 {
+  font-weight: 700;
+}
+
+/* Button */
+.p-Home.Div3.bpt,
+.p-Home.Flex60.bpt {
+  min-width: 165.2px;
+  height: 71px;
+  padding: 0 10px;
+  border: 2px solid black;
+  border-outline: none;
+  /*   border:none; */
+  /* background:transparent; */
+  position: relative;
+  background-image: linear-gradient(
+    108deg,
+    #b16cea 8%,
+    #ff5e69 40%,
+    #ff8a56 77%,
+    #ffa84b 91%
+  );
+}
+.p-Home.Button2.bpt,
+.p-Home.Button3.bpt {
+  position: absolute;
+  top: -15px;
+  left: -11px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 18px; */
+  line-height: 177%;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid rgb(0, 0, 0);
+  transform: trannslate3d(-8px, -8px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg);
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.p-Home.Button2.bpt:hover,
+.p-Home.Button3.bpt:hover {
+  position: absolute;
+  top: -2px;
+  left: -0.9px;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
